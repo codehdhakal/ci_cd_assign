@@ -3,4 +3,5 @@ from myapp import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
+    path('api/hello/', views.api_hello, name='api-hello'),
 ]
